@@ -8,7 +8,7 @@ import pystan.fit
 import pystan.httpstan_helpers as httpstan_helpers
 
 
-class Model:
+class StanModel:
     """Stores data associated with and proxies calls to a Stan model.
 
     Returned by `compile`. Users will not instantiate this class directly.
